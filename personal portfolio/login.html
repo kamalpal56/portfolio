@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="login_form.css">
+        <script src="login_form.js"></script>
+    </head>
+    <body style="background-image:url('Images/login-background.jpg');background-size: cover;">
+        <header>
+            <div class="logo"><a href="#">ShopEazy</a></div>
+            <div class="menu">
+              <a href="#">
+                <ion-icon name="close" class="close"></ion-icon>
+              </a>
+        
+              <ul>
+                <li><a href="index.html" class="under">HOME</a></li>
+                <li><a href="#" class="under">CART</a></li>
+                <li><a href="#" class="under">VIEW PRODUCTS</a></li>
+                <li><a href="#" class="under">ORDERS</a></li>
+                <li><a href="login.html" class="under">LOGIN</a></li>
+              </ul>
+            </div>
+            <div class="search">
+        
+              <a href=""><input type="text" placeholder="Search Products" id="input">
+                <ion-icon class="s" name="search"></ion-icon>
+              </a>
+            </div>
+            <div class="heading">
+              <ul>
+                <li><a href="index.html" class="under">HOME</a></li>
+                <li><a href="#" class="under">CART</a></li>
+                <li><a href="#" class="under">VIEW PRODUCTS</a></li>
+                <li><a href="#" class="under">ORDERS</a></li>
+                <li><a href="login.html" class="under">LOGIN</a></li>
+              </ul>
+            </div>
+            <div class="heading1">
+              <ion-icon name="menu" class="ham"></ion-icon>
+            </div>
+          </header>
+        <div class="container">
+            <div class="container form bg-white pt-5 mt-4 mb-3">
+                                                            <!--change after click on sign up-->
+                <p class="text-center login-heading hide-me">login</p>
+                <div class="container hide-me">
+                    <div class="row">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">username</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="text" placeholder="Type your username" class='input-1'>
+                                </div>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="hide"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">Password</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="password" placeholder="Type your password" class="input-2">
+                                </div>
+                            </div>
+                            <hr class="hr-2">
+                            <div class="hide-1"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-right pr-5">
+                            <a href="#"><span class="forget-password">Forget password?</span></a>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col pl-5 pr-5">
+                            <a href="index.html"><span class="btn btn-block text-white login-button">login</span></a>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <span style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or sign up using</span>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class='col text-center'>
+                            <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                            <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    
+                </div>
+                                                                        <!--change it-->
+                <p class="text-center login-heading show-me">sign up</p>
+                <div class="row show-me">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">First name</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="text" placeholder="Type your username" class='first-name'>
+                            </div>
+                        </div>
+                        <hr class="hr-1">
+                        <div class="first-name-hide"></div>
+                    </div>
+                </div>
+                <div class="row show-me">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">Last name</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="text" placeholder="Type your username" class='last-name'>
+                            </div>
+                        </div>
+                        <hr class="hr-1">
+                        <div class="last-name-hide"></div>
+                    </div>
+                </div>
+                <div class="row show-me">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">Email-id</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-envelope-o" aria-hidden="true" id="user"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="text" placeholder="Type your username" class='email'>
+                            </div>
+                        </div>
+                        <hr class="hr-1">
+                        <div class="email-hide"></div>
+                    </div>
+                </div>
+                <div class="row show-me">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">Password</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="password" placeholder="Type your password" class="password-signup">
+                            </div>
+                        </div>
+                        <hr class="hr-2">
+                        <div class="password-signup-hide"></div>
+                    </div>
+                </div>
+                <div class="row show-me">
+                    <div class="col mt-4 pl-5 pr-5">
+                        <p class="username">Confirm-password</p>
+                        <div class="row mt-4">
+                            <div class="col-2 text-center pt-1 pr-0">
+                                <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                            </div>
+                            <div class="col-10 pl-0">
+                                <input type="password" placeholder="Type your password" class="confirm-password-signup">
+                            </div>
+                        </div>
+                        <hr class="hr-2">
+                        <div class="confirm-password-signup-hide"></div>
+                    </div>
+                </div>
+                <div class="row show-me">
+                    <div class="col pl-5">
+                        <a href="#"><span class="forget-password">I accept the <span style="text-transform:capitalize;color:blue">terms of use</span>&
+                            <span style="text-transform:capitalize;color:blue">privacy policy</span> </a>
+                    </div>
+                </div>
+                <div class="row mt-5 show-me">
+                    <div class='col text-center'>
+                        <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                        <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
